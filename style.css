@@ -103,7 +103,7 @@
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
 }
 .same-p{
     color: rgb(13, 19, 33);
@@ -112,7 +112,7 @@
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
     opacity: 0.7;
 }
 .same-btn{
@@ -128,7 +128,42 @@
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-    margin-left: 5px;
+    margin-left: 210px;
     margin-top: 20px;        
 }
 /* second-part ends here */
+
+/* my inspiration section starts here */
+#inspiration{
+    height: 775px;
+    width: 1140px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.insp-h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.insp-p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+.i-frame{
+    height: 450px;
+    width: 1076px;
+    margin-top: 50px;
+}
+/* my inspiration section ends here */
