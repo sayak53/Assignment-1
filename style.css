@@ -1,1 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* banner section starts here */
+#banner{
+    height: 552px;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    background-image: url(B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.banner-items h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+.banner-items p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+    height: 46px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    margin-top: 20px;
+}
+/* banner section ends here */
+
+/* second-part begins here */
+
+#second-part{
+    height: 1235px;
+    width: 946px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+}
+#second-part h1{
+    color: rgb(13, 19, 33);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#second-part p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+.learn-more{
+   height: 240px;
+   width: 850px;
+   /* border: 2px solid green; */
+   margin: 0 auto;
+   margin-top: 50px;
+   display: flex;
+   box-shadow: 5px 5px 3px 3px lightgray;
+}
+.same-h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.same-p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+.same-btn{
+    height: 48px;
+    width: 150px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-left: 5px;
+    margin-top: 20px;        
+}
+/* second-part ends here */
